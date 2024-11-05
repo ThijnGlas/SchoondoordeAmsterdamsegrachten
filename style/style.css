@@ -172,9 +172,9 @@ body main .afval .flesje7 {
     animation-delay: 1.4s;
 }
 
-body main .afval .tas {
+body main .afval .flesje8 {
     animation-duration: 5s;
-    animation-delay: 0s;
+    animation-delay: 1.4s;
 }
 
 body main .afval img{
@@ -218,6 +218,17 @@ body main .afval img{
     top: 280px;
     left: 83%;
 }
+
+.home main .afval .flesje7{
+    top: 1300px;
+    left: 45%;
+}
+
+.home main .afval .flesje8{
+    top: 1250px;
+    left: 13%;
+}
+
 
 .home main .afval .tas{
     top: 1250px;
@@ -264,6 +275,11 @@ body main .afval img{
     left: 8%;
 }
 
+.helpmee main .afval .flesje8{
+    top: 970px;
+    left: 50%;
+}
+
 .helpmee main .afval .tas{
     top: 960px;
     left: 45%;
@@ -305,8 +321,8 @@ body main .afval img{
 }
 
 .waternet main .afval .flesje7{
-    top: 345px;
-    left: 8%;
+    top: 330px;
+    left: 80%;
 }
 
 .waternet main .afval .tas{
