@@ -96,19 +96,19 @@ main section{
 
 @keyframes scale {
     0% {
-        transform: scale(100%)
+        transform: scale(1);
     }
     4% {
-        transform: scale(102%)
+        transform: scale(1.02);
     }
     8% {
-        transform: scale(100%)
+        transform: scale(1);
     }
     12% {
-        transform: scale(102%)
+        transform: scale(1.02);
     }
     16% {
-        transform: scale(100%)
+        transform: scale(1);
     }
 }
 
