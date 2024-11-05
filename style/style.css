@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body{
+    color: #FFF;
+    background-color: #0A2647;
+    font-family: "Roboto", sans-serif;
+
+}
+
+header{
+    background: #4682A2;
+    height: 320px;
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.waternet header >img{
+margin-right: 28%;
+}
+
+.helpmee header{
+height: 360px;}
+
+
+header div img{
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+header > img{
+    animation: 800ms ease-out 400ms 1 downup;
+    animation-fill-mode: backwards;
+    width: 60%;
+    z-index: 10;
+}
+
+main{
+    padding: 30px 0px 0px 0px;
+    width: 100%;
+    background: linear-gradient(to bottom, #4682A2, #205295, #144272, #1F4064, #0A2647);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+main section{
+    animation: 800ms ease-out 1000ms 1 downup;
+    animation-fill-mode: backwards;
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@keyframes downup {
+    0% {
+        transform: translateY(+100px);
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-15px) rotate(4deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(100%)
+    }
+    7% {
+        transform: scale(102%)
+    }
+    12% {
+        transform: scale(100%)
+    }
+    19% {
+        transform: scale(102%)
+    }
+    26% {
+        transform: scale(100%)
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale();
+    }
+    50% {
+        transform: translateY(-15px) rotate(2deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+
+body main .afval{
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+
+body main .afval img {
+    animation-name: float;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+body main .afval .flesje1 {
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+body main .afval .flesje2 {
+    animation-duration: 6.5s;
+    animation-delay: 1s;
+}
+
+body main .afval .flesje3 {
+    animation-duration: 5.5s;
+    animation-delay: 2s;
+}
+
+body main .afval .flesje4 {
+    animation-duration: 7s;
+    animation-delay: 0.9s;
+}
+
+body main .afval .flesje5 {
+    animation-duration: 6s;
+    animation-delay: 1.5s;
+}
+
+body main .afval .flesje6 {
+    animation-duration: 7.5s;
+    animation-delay: 1.2s;
+}
+
+body main .afval .flesje7 {
+    animation-duration: 6s;
+    animation-delay: 1.4s;
+}
+
+body main .afval .tas {
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+body main .afval img{
+    position: absolute;
+    width: 40px;
+    opacity: 0.7;
+}
+
+.home main .afval .flesje1{
+    top: 300px;
+    left: 20px;
+}
+
+.home main .afval .flesje2{
+    top: 580px;
+    width: 40px;
+    left: 80%;
+}
+
+.home main .afval .flesje3{
+    top: 900px;
+    left: 85%;
+}
+
+.home main .afval .flesje4{
+    top: 900px;
+    left: 7%;
+}
+
+.home main .afval .flesje5{
+    top: 1250px;
+    left: 20px;
+}
+
+.home main .afval .flesje5{
+    top: 1250px;
+    left: 83%;
+}
+
+.home main .afval .flesje6{
+    top: 280px;
+    left: 83%;
+}
+
+.home main .afval .tas{
+    top: 1300px;
+    left: 8%;
+    width: 80px;
+    transform: rotate(123deg);
+
+}
+
+.helpmee main .afval .flesje1{
+    top: 280px;
+    left: 20px;
+}
+
+.helpmee main .afval .flesje2{
+    top: 674px;
+    width: 40px;
+    left: 87%;
+}
+
+.helpmee main .afval .flesje3{
+    top: 862px;
+    left: 85%;
+}
+
+.helpmee main .afval .flesje4{
+    top: 958px;
+    left: 77%;
+}
+
+.helpmee main .afval .flesje5{
+    top: 970px;
+    left: 10%;
+}
+
+
+.helpmee main .afval .flesje6{
+    top: 356px;
+    left: 83%;
+}
+
+.helpmee main .afval .flesje7{
+    top: 345px;
+    left: 8%;
+}
+
+.helpmee main .afval .tas{
+    top: 960px;
+    left: 45%;
+    width: 80px;
+    transform: rotate(123deg);
+
+}
+
+.waternet main .afval .flesje1{
+    top: 254px;
+    left: 78%;
+}
+
+.waternet main .afval .flesje2{
+    top: 640px;
+    width: 40px;
+    left: 79%;
+}
+
+.waternet main .afval .flesje3{
+    top: 862px;
+    left: 85%;
+}
+
+.waternet main .afval .flesje4{
+    top: 718px;
+    left: 86%;
+}
+
+.waternet main .afval .flesje5{
+    top: 913px;
+    left: 53%;
+}
+
+
+.waternet main .afval .flesje6{
+    top: 332px;
+    left: 62%;
+}
+
+.waternet main .afval .flesje7{
+    top: 345px;
+    left: 8%;
+}
+
+.waternet main .afval .tas{
+    top: 293px;
+    left: 77%;
+    width: 60px;
+    transform: rotate(123deg);
+
+}
+
+main section div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 2.4rem;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-position: inside;
+  }
+
+li{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.1rem;
+    animation-name: scale;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+section a{
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    font-weight: 100;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2.1rem;
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    width: 70%;
+    font-family: "New Amsterdam", sans-serif;
+    background-color: #4379F2;
+}
+
+main section > div{
+    margin-bottom: 20px;
+}
+
+footer{
+    z-index: 200;
+    position: sticky;
+    min-height: 157px;
+    bottom: 0;
+}
+
+footer img{
+    width: 100%;
+    z-index: -1;
+}
+
+footer nav {
+    margin-top: -50px
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+    z-index: 1;
+}
+
+
+
+nav li{
+    font-size: 2.4rem;
+    font-family: "New Amsterdam", sans-serif;
+    list-style: none;
+    text-align: center;
+}
+
+footer nav li{
+    border: 1px solid #fff;
+    border-radius: 12px;
+    width: 30%;
+    z-index: 100;
+}  
