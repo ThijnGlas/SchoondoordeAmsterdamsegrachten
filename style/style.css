@@ -189,8 +189,8 @@ body main .afval img{
 }
 
 .home main .afval .flesje2{
-    top: 580px;
-    width: 40px;
+    top: 572px;
+    width: 35px;
     left: 80%;
 }
 
@@ -200,12 +200,12 @@ body main .afval img{
 }
 
 .home main .afval .flesje4{
-    top: 900px;
+    top: 867px;
     left: 7%;
 }
 
 .home main .afval .flesje5{
-    top: 1250px;
+    top: 1260px;
     left: 20px;
 }
 
@@ -220,7 +220,7 @@ body main .afval img{
 }
 
 .home main .afval .tas{
-    top: 1300px;
+    top: 1250px;
     left: 8%;
     width: 80px;
     transform: rotate(123deg);
